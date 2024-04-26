@@ -7,8 +7,6 @@ import jakarta.validation.constraints.Size;
 
 import java.time.Year;
 
-import java.time.Year;
-
 public record VeiculoRequest(
 
         @Positive(message = "O Id deve ser um número positivo")

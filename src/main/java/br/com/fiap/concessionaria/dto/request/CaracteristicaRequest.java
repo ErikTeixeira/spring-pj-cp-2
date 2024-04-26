@@ -3,7 +3,7 @@ package br.com.fiap.concessionaria.dto.request;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 
-public record CaracteristicasRequest(
+public record CaracteristicaRequest(
 
         @Valid
         @NotNull(message = "Veiculo e obrigatório")
